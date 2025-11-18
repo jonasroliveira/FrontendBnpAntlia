@@ -1,0 +1,5 @@
+./cliente
+    dotnet publish ./Client/Client.csproj -c Release
+
+./server
+    dotnet run --project server
